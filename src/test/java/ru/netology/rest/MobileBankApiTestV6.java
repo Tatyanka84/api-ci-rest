@@ -7,7 +7,6 @@ import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static sun.security.util.KnownOIDs.ContentType;
 
 class MobileBankApiTestV6 {
     private final RequestSpecification requestSpec = new RequestSpecBuilder()
